@@ -2,11 +2,63 @@
 set -euf
 
 ##
-# Make directories for all United States state codes.
+# Make directories for all United States state names.
+#
+# This implementation creates one-by-one for maximum compatibility.
 #
 # Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
 # License: GPL
-# Updated: 2015-01-25
+# Created: 2015-01-25
+# Updated: 2020-03-17
 ##
 
-mkdir {alabama,alaska,arizona,arkansas,california,colorado,connecticut,delaware,florida,georgia,hawaii,idaho,illinois,indiana,iowa,kansas,kentucky,louisiana,maine,maryland,massachusetts,michigan,minnesota,mississippi,missouri,montana,nebraska,nevada,new-hampshire,new-jersey,new-mexico,new-york,north-carolina,north-dakota,ohio,oklahoma,oregon,pennsylvania,rhode-island,south-carolina,south-dakota,tennessee,texas,utah,vermont,virginia,washington,west-virginia,wisconsin,wyoming}
+mkdir -p alabama
+mkdir -p alaska
+mkdir -p arizona
+mkdir -p arkansas
+mkdir -p california
+mkdir -p colorado
+mkdir -p connecticut
+mkdir -p delaware
+mkdir -p florida
+mkdir -p georgia
+mkdir -p hawaii
+mkdir -p idaho
+mkdir -p illinois
+mkdir -p indiana
+mkdir -p iowa
+mkdir -p kansas
+mkdir -p kentucky
+mkdir -p louisiana
+mkdir -p maine
+mkdir -p maryland
+mkdir -p massachusetts
+mkdir -p michigan
+mkdir -p minnesota
+mkdir -p mississippi
+mkdir -p missouri
+mkdir -p montana
+mkdir -p nebraska
+mkdir -p nevada
+mkdir -p new-hampshire
+mkdir -p new-jersey
+mkdir -p new-mexico
+mkdir -p new-york
+mkdir -p north-carolina
+mkdir -p north-dakota
+mkdir -p ohio
+mkdir -p oklahoma
+mkdir -p oregon
+mkdir -p pennsylvania
+mkdir -p rhode-island
+mkdir -p south-carolina
+mkdir -p south-dakota
+mkdir -p tennessee
+mkdir -p texas
+mkdir -p utah
+mkdir -p vermont
+mkdir -p virginia
+mkdir -p washington
+mkdir -p west-virginia
+mkdir -p wisconsin
+mkdir -p wyoming
